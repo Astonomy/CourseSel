@@ -38,5 +38,5 @@ post_data['pd'] = input('passwd')
 post_data['randomCode'] = ''
 
 post_data = urllib.parse.urlencode(post_data).encode ('utf-8')
-
+#print(post_data)
 opener.open(login_url, post_data)
